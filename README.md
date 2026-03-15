@@ -81,23 +81,7 @@ WordPress CMS
 User Browser Access
 http://localhost
 
-Project Directory Structure
 
-
-automation_tool_kit
-│
-├── deploy.sh
-│
-├── scripts
-│   ├── install_stack.sh
-│   ├── setup_database.sh
-│   ├── install_wordpress.sh
-│   ├── install_wpcli.sh
-│   ├── configure_wordpress.sh
-│   └── install_content.sh
-│
-└── monitor
-    └── system_monitor.sh
     
 Each script performs a specific task to keep the system modular and easier to maintain.
 
