@@ -18,3 +18,9 @@ sudo wp post create \
 fi
 
 echo "Demo content installed."
+
+
+
+# This script goes to the WordPress web dir and checks if a page titled “Welcome”
+# already exists using WP-CLI. If the page is not found, it automatically creates
+# and publishes a demo page with a short welcome message for the deployed WordPress site.
